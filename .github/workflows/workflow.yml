@@ -1,7 +1,7 @@
 name: main-workflow
 
 env:
-  IMAGE_REPOSITORY: busser/foobar
+  IMAGE_REPOSITORY: ivsidao/foobar
 
 on:
   push:
