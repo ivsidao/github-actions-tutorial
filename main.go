@@ -11,6 +11,8 @@ import (
 
 const addr = ":8080"
 
+// this is my comment
+
 func main() {
 	http.HandleFunc("/foobar", foobarHandler)
 	http.HandleFunc("/healthz", healthHandler)
