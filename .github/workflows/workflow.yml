@@ -30,7 +30,7 @@ jobs:
         run: go version
       
       - name: Run unit tests
-        run:  go test -v ld and release.
+        run:  go test -v ld and release
   
   build-and-release:
     runs-on: ubuntu-latest
